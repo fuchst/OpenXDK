@@ -1,5 +1,5 @@
 AM_CFLAGS = -std=gnu99
-INCLUDES = -I../../include
+AM_CPPFLAGS = -I../../include
 
 lib_LIBRARIES = libopenxdk.a
 libopenxdk_a_SOURCES = $(SRCS)

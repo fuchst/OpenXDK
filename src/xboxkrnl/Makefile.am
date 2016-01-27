@@ -1,7 +1,7 @@
 AM_CFLAGS = -std=gnu99 -ffreestanding -nostdlib -fno-builtin -fno-exceptions -mno-cygwin -march=i386
 AM_LDFLAGS = -Wl,--out-implib=libxboxkrnl.a -Wl,--add-stdcall-alias
 
-INCLUDES = -I../../include
+AM_CPPFLAGS = -I../../include
 
 noinst_PROGRAMS = xboxkrnl
 xboxkrnl_SOURCES = $(SRCS)

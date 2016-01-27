@@ -1,5 +1,6 @@
-AC_INIT(Makefile.am)
-AM_INIT_AUTOMAKE(OpenXDK,0.7)
+AC_INIT(OpenXDK,0.7)
+AC_CONFIG_SRCDIR(Makefile.am)
+AM_INIT_AUTOMAKE(foreign subdir-objects)
 
 AM_MAINTAINER_MODE
 

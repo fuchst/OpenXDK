@@ -1,5 +1,5 @@
 AM_CFLAGS = -std=gnu99
-INCLUDES = -I../../include -I./include -I.
+AM_CPPFLAGS = -I../../include -I./include -I.
 
 lib_LIBRARIES = libusb.a
 libusb_a_SOURCES = $(SRCS)

@@ -5,7 +5,7 @@ install-exec-local: newlib-install sdl-install directories-install openxdk-insta
 # openxdk-install
 
 AM_CFLAGS="-I$(PWD)/$(top_srcdir)/include"
-INCLUDES="-I$(PWD)/$(top_srcdir)/include"
+AM_CPPFLAGS="-I$(PWD)/$(top_srcdir)/include"
 
 SUBDIRS=include .
 
